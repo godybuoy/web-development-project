@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Web-development-course-Project] <a name="about-project"></a>
+# 📖 [Web-development-Project] <a name="about-project"></a>
 
 
 
-**[Web-development-course-Project]** is a project of making a portfolio website to showcase 
+**[Web-development-Project]** is a project of making a portfolio website to showcase 
 my skills to  employers that i can make a responsive website using html, css, Javascript and Bootstrap.
 
 
