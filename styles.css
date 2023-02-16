@@ -22,16 +22,11 @@ body {
   cursor: pointer;
 }
 
-.logo-img {
-  /* height: 20px; */
-}
-
 .toplist {
   display: none;
 }
 
 .navbar {
-  /* height: fit-content */
   width: 100%;
   z-index: 10;
   margin-bottom: 5rem;
