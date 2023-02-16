@@ -31,7 +31,7 @@
 my skills to  employers that i can make a responsive website using html, css, Javascript and Bootstrap.
 
 
-- [Video Link about Project] <a href="https://loom.com/share/b9814f9ce7c5488e91b1aa0b2a93a3fe"><button type="button" color:red background: white>Click Here</button></a>
+- [Video Link about Project] <a href=""><button type="button" color:red background: white>Click Here</button></a>
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -43,8 +43,8 @@ This project has been made using html, css, javascript and bootstrap according t
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/">html.com</a></li>
     <li><a href="https://www.w3.org/TR/html401/present/styles.html">w3.org</a></li>
+    <li><a href="https://html.com/">html.com</a></li>
   </ul>
 </details>
 

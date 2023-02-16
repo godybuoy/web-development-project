@@ -1,72 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="styles.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capston project</title>
-   
-</head>
-<body>
-        <!-- ...head section... -->
-        <div  class="contianer-fluid header-container">
-            <div class="container header-container1">
-                    <header class="row d-flex justify-content-end">
-                            <div class="header-columns mypage"><a href="#" class="header-icons"><i class="fa fa-facebook"></i></a></div>
-                            <div class="header-columns mypage"><a href="#" class="header-icons"><i class="fa fa-twitter"></i></a></div>
-                            <div class="header-columns"><a href="#" class="header-text">English</a></div>
-                            <div class="header-columns"><a href="#" class="header-text">MyPage</a></div>
-                            <div class="header-columns"><a href="#" class="header-text">Logout</a></div>
-                    </header>
-            </div>
-        </div>
-             <!-- home page  -->
-    <div class="contianer-fluid home-page-fluid-container">
-        <div class="container-fluid menu-bar-fluid">
-            <div class="row">
-                <div id="wrap" class="wrap">
-                    <div id="bar1" class="menu"></div>
-                    <div id="bar2" class="menu"></div>
-                    <div id="bar3" class="menu"></div>
-                </div>
-            </div>
-            <div id="navdisplay1" class="row">
-                <ul class="nav-m">
-                            <li><a href="./about.html"> About</a></li>
-                            <li><a id="coursesm" href="#main-courses">Main Courses</a></li>
-                            <li><a id="joinm" href="#"> Join</a></li>
-                            <li><a id="sponserm" href="#"> Sponser</a></li>
-                            <li><a id="latestm" href="#"> Latest</a></li>
-                </ul>
-            </div>
-        </div>
-            <div class="container main-home-container">
-                        <div class="row heading-1">
-                            <h1>"Hello, Students!"</h1>
-                        </div>
-                        <div class="row heading-2">
-                            <h2>WEB-DEVELOPMENT COURSE BATCH<br> 2023</h2>
-                        </div>
-                        <div class="row para-heading">
-                            <p>Its a joyful celebration of our 5th year course. We really appreciate and apprehend those who are still enrolling from various countries over the world.</p>
-                        </div>
-                        <div class="row heading-3">
-                            <h3>2023.10.15(THU) ~ (FRI)</h3>
-                        </div>
-                        <div class="row heading-4">
-                            <h4>@Buoy-Education Nairobi, And many more</h4>
-                        </div>
+    <script
+      src="https://kit.fontawesome.com/58789452ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
+  <body class="homepage">
+    <header class="navbar" id="navbar"> 
+            <div class="intro-part">
+              <button class="mobile">
+                <img class="m-menu" src="./image/mobile_menu.png" alt="menu icon">
+              </button>
+              </div>
+              <div class="desktop">
+                <div class="top-nav">
+                  <ul class="toplist">
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-facebook top-item faceb"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/godybuoy">
+                        <i class="fa-brands fa-twitter top-item faceb"></i>
+                      </a>
+                    </li>
+                    <li class="up-item">English</li>
+                    <li class="up-item">Mypage</li>
+                    <li class="up-item">Logout</li>
+                  </ul>
+                </div>
+
+                <div class="navdesktop">
+                  <div class="logo">
+                    <a href="index.html"><img class = "logo-img" src="./image/code-school.svg" alt="my logo"/></a>
+                  </div>
+                  <nav class="navigation">
+                    <ul class="navigation-item">
+                      <li class="nav-item"><a class="sub-item abot" href="about.html">About</a></li>
+                      <li class="nav-item"><a class="sub-item" href="#Program">Program</a></li>
+                      <li class="nav-item"><a class="sub-item" href="#Join">Join</a></li>
+                      <li class="nav-item"><a class="sub-item" href="#Sponsor">Sponsor</a></li>
+                      <li class="nav-item"><a class="sub-item" href="#News">News</a></li>
+                      <a href="index.html"><button class="nav-works">Company</button></a>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="row icontent">
+              <div class="row itittle">
+                <h1 class="row introd1">"Welcome, student!"</h1>
+                <h2 class="row introd2">
+                  WEB DEVELOPMENT PROJECT COURSE <br>BATCH 2023
+                </h2>
+              </div>
+              <div class="text-summary">
+                <p class="intro">
+                  Its a joyful celebration of our five year
+                  course .we highly appreciate and 
+                  apprehend those
+                    who studying for there efforts they make.
+                    Enrollment is still ongoing . We are 
+                  happy to receive students from over
+                  100 countries over the world.
+                </p>
+              </div>
+              <div class="vedate">
+                <h4 class="date">2023.03.11(THR)~(SAT)</h4>
+              </div>
             </div>
-</body>
+    </header>
+
+    <main class="main">
+      <!--Main Program -->
+      <section class="program">
+              <div class="programi">
+                <div class="main-heading">
+                  <h3 class="main-text">Main Program</h3>
+                  <div class="line-orange"></div>
+                  <hr class="line" />
+                </div>
+                <div class="card">
+                  <article class="card-container">
+                              <div class="left-text">
+                                <img class="leftimg" src="./image/javascript-1.svg" alt="javascript icon" />
+                                <p class="ltext">Javascript</p>
+                              </div>
+                              <div class="right-text">
+                                <p class="rtext">
+                                  JavaScript (JS) is a lightweight, interpreted, or 
+                                  just-in-time compiled programming 
+                                  language with first-class functions.
+                                </p>
+                              </div>
+                  </article>
+                  <article class="card-container">
+                            <div class="left-text">
+                              <img class="leficon" src="./image/rails-1.svg" alt="ruby icon" />
+                              <p class="ltext">Ruby</p>
+                            </div>
+                            <div class="right-text">
+                              <p class="rtext">
+                                Ruby is an open-source object-oriented 
+                                scripting language invented 
+                                in the mid-90s by Yukihiro Matsumoto
+                              </p>
+                            </div>
+                  </article>
+                  <article class="card-container">
+                          <div class="left-text">
+                            <img class="leficon" src="./image/html-1.svg" alt="html icon " />
+                            <p class="ltext">HTML</p>
+                          </div>
+                          <div class="right-text">
+                            <p class="rtext">
+                              The HyperText Markup Language or HTML is the standard 
+                              markup language for documents designed
+                              to be displayed in a web browser
+                            </p>
+                          </div>
+                </article>
+                  <article class="card-container design">
+                              <div class="left-text">
+                                <img class="leficon" src="./image/css-3.svg" alt="css icon" />
+                                <p class="ltext">CSS</p>
+                              </div>
+                              <div class="right-text">
+                                <p class="rtext">
+                                  style sheet language used for describing the presentation 
+                                  of a document written in a markup language
+                                  such as HTML or XML (including XML
+                                  dialects such as SVG, MathML or XHTML)
+                                </p>
+                              </div>
+                </article>
+                <article class="card-container">
+                                    <div class="left-text">
+                                      <img class="leficon" src="./image/python-5.svg" alt="python icon" />
+                                      <p class="ltext">Python</p>
+                                    </div>
+                          <div class="right-text">
+                                      <p class="rtext">
+                                        Business Intelligence and Analytics· Employee Call-Off Hotline· 
+                                        Artificial Intelligence· Cognitive Insights· Automation· Cognitive Engagement.
+                                      </p>
+                            </div>
+                  </article>
+          </div>
+                <button class="join">WEB DEVELOPMENT PROJECT COURSE LiveWorx 2023</button>
+                <a class="see-link" href="#">SEE THE WHOLE PROGRAM</a>
+              </div>
+            </section>
+            <!-- ....speakers-- -->
+            <section class="spekers" id="speakers">
+              <br>
+              <br>
+              <div class="p-heading speakertitle">
+                            <h3 class="speaktext">Featured Speakers</h3>
+                            <div class="line-orange"></div>
+                            <hr class="line" />
+              </div>
+              <div class="spks-container" id="spks-container"></div>
+                        <button id="m-button" class="m-button">MORE
+                          <img class="arrow" src="./image/arrow_down.png" alt="arro down">
+                        </button>
+      </section>
+
+      <!--patners-->
+      <section class="partners">
+        <div class="pro-heading">
+          <h3 class="pro-text patnerinfo">Partner</h3>
+          <div class="line-orange"></div>
+          <hr class="line" />
+        </div>
+        <div class="parner-container">
+          <div class="pimage">
+            <img src="./image/code-alarm-1.svg" alt="code icon" />
+          </div>
+          <div class="pimage">
+            <img src="./image/code-school.svg" alt="codesch icon" />
+          </div>
+          <div class="pimage">
+            <img src="./image/visual-studio-code-1.svg" alt="vs icon" />
+          </div>
+          <div class="pimage">
+            <img src="./image/googleimage.jpg" alt="google icon" /></li>
+          </div>
+          <div class="pimage">
+            <img src="./image/Microsoft-Logo.svg" alt="microsoft icon" /></li>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer class="footer-container">
+      <div class="footer-image">
+        <img src="./image/code-school.svg" alt="my logo" />
+      </div>
+      <div class="footertext">
+        <p>
+          WEB DEVELOPMENT PROJECT COURSE LiveWorx 2023. <br />
+          Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
